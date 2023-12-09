@@ -1,10 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Card from '../components/Card.astro'
+// import Card from '../components/Card.astro'
 ---
 
 <Layout title="Welcome to FAQ Accordion">
-  <main>
+  <div class="relative h-screen overflow-auto bg-light-pink">
+    <img src="/images/background-pattern-mobile.svg" class="fixed z-0 w-full" />
+    <main class="">
+      <article class="relative rounded-lg bg-white p-6"></article>
+    </main>
+  </div>
+  <!-- <main class="relative">
     <svg
       class="astro-a"
       width="495"
@@ -33,7 +39,7 @@ import Card from '../components/Card.astro'
         </linearGradient>
       </defs>
     </svg>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+    <h1>Welcome to <span class="text-gradient">FAQ Accordion</span></h1>
     <p class="instructions">
       To get started, open the directory <code>src/pages</code> in your project.<br
       />
@@ -62,7 +68,7 @@ import Card from '../components/Card.astro'
         body="Come say hi to our amazing Discord community. ❤️"
       />
     </ul>
-  </main>
+  </main> -->
 </Layout>
 
 <style>
