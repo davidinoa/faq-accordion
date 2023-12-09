@@ -1,13 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro'
 // import Card from '../components/Card.astro'
+import '../styles/global.css'
+import { Button } from '@/components/ui/button'
 ---
 
 <Layout title="Welcome to FAQ Accordion">
   <div class="relative h-screen overflow-auto bg-light-pink">
     <img src="/images/background-pattern-mobile.svg" class="fixed z-0 w-full" />
     <main class="">
-      <article class="relative rounded-lg bg-white p-6"></article>
+      <article class="relative rounded-lg bg-white p-6">
+        <Button>Hello World</Button>
+      </article>
     </main>
   </div>
   <!-- <main class="relative">
@@ -70,7 +74,7 @@ import Layout from '../layouts/Layout.astro'
     </ul>
   </main> -->
 </Layout>
-
+<!-- 
 <style>
   main {
     margin: auto;
@@ -131,4 +135,4 @@ import Layout from '../layouts/Layout.astro'
     gap: 2rem;
     padding: 0;
   }
-</style>
+</style> -->
