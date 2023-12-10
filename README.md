@@ -1,54 +1,31 @@
-# Astro Starter Kit: Basics
+# FAQ Accordion
 
-```sh
-npm create astro@latest -- --template basics
-```
+[Live Site](faqs-accordion-dil.vercel.app)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Overview
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+FAQ Accordion is an interactive web application designed to provide users with a convenient way to navigate through frequently asked questions (FAQs). This app enhances the user experience by offering an intuitive interface where questions can be expanded or collapsed to reveal the answers. It's built with accessibility and responsiveness in mind, ensuring a seamless experience across various devices and screen sizes.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Key Features:
 
-## 🚀 Project Structure
+- **Interactive Accordion**: Users can click on questions to show or hide answers.
+- **Keyboard Navigation**: The app supports full keyboard navigation for accessibility, allowing users to navigate through questions and toggle answers without a mouse.
+- **Responsive Design**: Optimal layout and interface adjustments based on the user's device screen size.
+- **Interactive States**: Visual feedback on hover and focus states for all interactive elements.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Tech Stack
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+This application leverages a modern and efficient tech stack, focused on performance, user experience, and development efficiency:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Astro**: Utilized for its capabilities in building fast, modern websites with a focus on performance.
+- **React**: For creating dynamic and reusable UI components.
+- **Tailwind CSS**: Implemented for its utility-first approach, enabling rapid UI development with a consistent styling.
+- **Radix UI**: Used for accessible and customizable components, specifically for the accordion functionality.
+- **TypeScript**: Adding type safety to enhance code quality and maintainability.
+- **Vite**: Employed for fast builds and hot module replacement, improving the development workflow.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Future Enhancements
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Continued focus on accessibility improvements.
+- Additional customization options for users.
+- Expansion of the FAQ content to cover more topics.
