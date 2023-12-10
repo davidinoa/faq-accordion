@@ -1,6 +1,6 @@
 # FAQ Accordion
 
-[Live Site](faqs-accordion-dil.vercel.app)
+[Live Site](https://faqs-accordion-dil.vercel.app/)
 
 ## Overview
 
